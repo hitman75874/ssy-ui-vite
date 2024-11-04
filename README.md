@@ -10,6 +10,12 @@
 <p align="center">
   <img src="https://img.shields.io/github/license/hitman75874/hitman47?color=red">
 
+<a href="https://codecov.io/github/hitman75874/ssy-ui-vite" > 
+ <img src="https://codecov.io/github/hitman75874/ssy-ui-vite/graph/badge.svg?token=JO2HCFSLP5"/> 
+ </a>
+
+
+
 </p>
 
 ## Features
