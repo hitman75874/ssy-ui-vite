@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>按需引入</title>
+  </head>
+
+  <body>
+    <h2>按需引入:avater</h2>
+    <div id="app"></div>
+    <link rel="stylesheet" href="../dist/entry.css" />
+    <script src="../node_modules/vue/dist/vue.global.js"></script>
+    <script src="../dist/Link/index.umd.cjs"></script>
+    <script>
+      const { createApp } = Vue
+      const { Link } = link
+      // console.log('vue', Vue)
+      console.log('SSYUI:Link', Link)
+      createApp({
+        template: `
+        <div style="margin-bottom:20px;">
+            <s-link size="large" color="green">这是avatar</s-link>
+        </div>
+     `,
+      })
+        .use(Link)
+        .mount('#app')
+    </script>
+  </body>
+</html>
