@@ -12,6 +12,7 @@
 
 <a href="https://codecov.io/github/hitman75874/ssy-ui-vite" > 
  <img src="https://codecov.io/github/hitman75874/ssy-ui-vite/graph/badge.svg?token=JO2HCFSLP5"/> 
+  <img src="https://codecov.io/github/hitman75874/ssy-ui-vite/graph/badge.svg?token=JO2HCFSLP5"/> 
  </a>
 
 
